@@ -1,7 +1,10 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Articles</h1>
-
+<%= cl_image_tag("https://res.cloudinary.com/duyiivksk/image/upload/v1565946165/v3nogrbcdmcatpl1qryx.jpg",
+      width: 400, height: 300, crop: :fill) %>
+<%= cl_image_tag("https://res.cloudinary.com/duyiivksk/image/upload/v1565946165/v3nogrbcdmcatpl1qryx.jpg",
+      width: 150, height: 150, crop: :thumb, gravity: :face) %>
 <table>
   <thead>
     <tr>
